@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+	font-family: 'Open Sans';
+	min-height: 100vh;
+}
+
+.bg-success {
+	background-color: rgb(34, 142, 93);
+	color: rgb(214 214 214);
+}
+
+.bg-default-100 {
+	background-color: rgb(39 39 39);
+}
+
+.rounded-medium {
+	border-radius: 6px;
+}
+
+.price-button {
+	background: linear-gradient(90deg, rgb(34, 142, 93) 0%, rgb(18, 76, 50) 100%);
+}
+
+.specials-button {
+	background: linear-gradient(0deg, #363636, #363636), rgba(255, 106, 112, 0.12);
+}
+
+.status-red {
+	color: #ff6a70;
+	background-color: #412f30;
+}
+
+.status-green {
+	color: #02bb77;
+	background-color: #223930;
+}
+
+.background-opacity-block {
+	opacity: 0.85;
+}
+
+.user-uniq {
+	color: #08e8de;
+	text-shadow: 2px 2px #181657, 0px 1px #0ff, 0px 0px 1px #0095ff,
+		0px 0px 5px #00f, 0px 0px 5px #8500ff, 0px 0px 5px #808080,
+		0px 0px 1px #2b297b, 0px 1px #2c0636, 0px 0px 1px #00a1ff, 0px 0px #160c2c;
+}
